@@ -1,0 +1,31 @@
+{
+  "name": "tabletop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaksamarko/tabletop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaksamarko/tabletop/issues"
+  },
+  "homepage": "https://github.com/jaksamarko/tabletop#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "node-gzip": "^1.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
